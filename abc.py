@@ -17,3 +17,17 @@ for root, sub_folders, files in os.walk(file_dir):        #读取文件，可以
 for one_folder in temp:
 	n_img = len(os.listdir(one_folder))
 	print(n_img)
+            # print("登录成功！")
+
+        # if "Password is error.(密码错误）" in r.text:
+        #     print("登录失败，用户名或者密码不真确，请重新登录！")
+        #     continue
+        # else:
+        #     print("登录成功！")
+        #     break
+        # except error.URLError as e:
+        #     if hasattr(e, 'code'):
+        #         print("HTTPError:%d" % e.code)
+             
+        #     elif hasattr(e, 'reason'):
+        #         print("URLError:%s" % e.reason)
